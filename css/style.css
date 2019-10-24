@@ -1,0 +1,224 @@
+.container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #eeeeee;
+}
+
+header ul {
+  margin-bottom: 0;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+header ul li i {
+  color: #757575;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+header ul li :hover {
+  color: #f4511e;
+}
+
+header .head-list, header .head-p, header .head-other {
+  width: 33%;
+}
+
+header .head-p {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #757575;
+}
+
+header .head-other {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 20%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+header .head-other div {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+}
+
+header .head-other div select {
+  font-size: 13px;
+  border: transparent;
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+header .head-other div p {
+  color: #757575;
+  font-size: 13px;
+  margin-bottom: 13px;
+}
+
+.line {
+  font-size: 25px;
+}
+
+.user-items {
+  position: relative;
+}
+
+.user-items i {
+  font-size: 25px;
+}
+
+.user-items .numberSpan {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background: black;
+  border-radius: 50%;
+  color: #eeeeee;
+  position: absolute;
+  left: 40px;
+  padding-bottom: 10px;
+}
+
+.user-items .numberSpan p {
+  margin-top: -2px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel .overlay {
+  left: 200px;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.carousel .overlay div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel .overlay div p {
+  font-size: 20px;
+}
+
+.carousel .overlay div h2 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.carousel .overlay div a {
+  width: 30%;
+  margin-top: 50px;
+  border-radius: 30em;
+  padding: 15px 5px;
+}
+
+.same-a {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+.same-a:hover {
+  text-decoration: none;
+  color: white;
+  background: #f4511e;
+}
+
+.banner-part .big-img, .banner-part .small-img {
+  background: #757575;
+  position: relative;
+  width: 100%;
+}
+
+.banner-part .big-img div, .banner-part .small-img div {
+  bottom: 30px;
+  left: 30%;
+  position: absolute;
+  z-index: 1;
+}
+
+.banner-part .big-img div a, .banner-part .small-img div a {
+  padding: 10px 50px;
+}
+
+.banner-part .last-small-div {
+  width: 100%;
+  height: 20em;
+  background: #e0e0e0;
+}
+
+.banner-part .last-small-div div {
+  text-align: center;
+  width: 70%;
+}
+
+.banner-part .last-small-div div a {
+  border-radius: 30em;
+  padding: 10px 50px;
+}
+
+.banner-part .last-small-div div a:hover {
+  background: black;
+}
+
+.banner-part .last-small-div .last-small-div-p {
+  margin-top: -40px;
+}
+/*# sourceMappingURL=style.css.map */
